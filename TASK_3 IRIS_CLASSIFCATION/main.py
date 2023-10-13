@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report, accuracy_score, confusion_mat
 from sklearn.preprocessing import LabelEncoder
 
 
-iris_data = r"D:\CODSOFT\IRIS_CLASSIFCATION\IRIS.csv"
+iris_data = "IRIS.csv"
 
 # Load the dataset provided by the user
 df = pd.read_csv(iris_data)
